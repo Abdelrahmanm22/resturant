@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #e4b34c;
+}
+i{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #e4b34c;
+    color: #171717;
+}
+.btn-primary{
+    background-color: initial;
+}
+.btn{
+    width: 160px !important;
+    padding: 10px;
+    border: 1px solid #e4b34c;
+    border-radius:1px ;
+    -webkit-border-radius:1px ;
+    -moz-border-radius:1px ;
+    -ms-border-radius:1px ;
+    -o-border-radius:1px ;
+    color: white !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn:hover{
+    background-color: initial;
+    color: #e4b34c !important;
+    border: 1px solid #e4b34c;
+    
+}
+/* code nav--------------------------------------- */
+.navv{
+    padding-top: 5px;
+    box-shadow: 3px 3px #e4b34c;
+    background-color:#171717 ;
+    position: relative;
+}
+.navv::before{
+    content: "";
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 3px;
+    background-color: #e4b34c;
+}
+.navLogo{
+    width: 220px;
+    height: 64px;
+    cursor: pointer;
+}
+.navbar-nav .nav-item{
+    margin-left: 45px;
+}
+
+.navbar-nav .nav-item a{
+
+    color: #e4b34c;
+    font-weight: 100;
+    position: relative;
+}
+.navbar-nav .nav-item .active{
+    color: white;
+}
+.navbar-nav .nav-item:hover a{
+    color: white;
+}
+.navbar-nav .nav-item >a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 1px;
+    background-color:#e4b34c ;
+    
+}
+.navbar-nav .nav-item >a:hover::before{
+    animation-name: line;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes line {
+    from {width: 0;}
+    to {width: 150%;}
+}
+.dropdown-menu{
+    background-color: #171717;
+}
+
+.navbar-toggler:focus{
+    border: 1px solid #e4b34c;
+    color: white;
+    outline: 0;
+    box-shadow: none;
+}
+@media (min-width:320px) and (max-width:480px){
+
+    .navLogo{
+        width: 270px;
+        height: 87px;
+        cursor: pointer;
+    }
+    .navbar-toggler i{
+        font-size: 25px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+
+    .navLogo{
+        width: 410px;
+        height: 133px;
+        cursor: pointer;
+    }
+    .navbar-toggler i{
+        font-size: 30px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+
+    .navLogo{
+        width: 134px;
+        height: 39px;
+        cursor: pointer;
+    }
+    .navbar-toggler i{
+        font-size: 30px;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+
+    .navbar-nav .nav-item{
+        margin-left: 30px;
+    }
+    .navLogo{
+        width: 134px;
+        height: 39px;
+        cursor: pointer;
+    }
+    .navbar-toggler i{
+        font-size: 30px;
+    }
+}
+/* End Nav Code ---------------------------------------------------------------------------------------------- */
+/* code profile ------------------------------------------------------------------------------------------------*/
+.swiper{
+    z-index: -1;
+}
+.profile{
+    position: relative;
+}
+.profile-text{
+    width: 600px;
+    position: absolute;
+    top: 12%;
+    
+    /* background-color: white; */
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.profile-text h5{
+    font-family: 'Great Vibes', cursive;
+}
+.profile-text h1{
+    font-family: 'Merriweather', serif;
+    font-size: 80px;
+}
+.profile-text p{
+    color: #ABABAB;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+    .profile-text h5{
+        font-size: 16px;
+    }
+    .profile-text h1{
+        
+        font-size: 46.5px;
+    }
+    
+}
+@media (min-width:769px) and (max-width:1024px){
+    .profile-text h5{
+        font-size: 19.2px;
+    }
+    .profile-text h1{
+        
+        font-size: 90px;
+    }
+
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .profile-text h5{
+        font-size: 16px;
+    }
+    .profile-text h1{
+        
+        font-size: 90px;
+    }
+
+}
+
