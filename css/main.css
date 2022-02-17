@@ -252,3 +252,91 @@ h4{
 
 }
 /* code Services------------------------------------------------------------------------------------------------- */
+/* code about--------------------------------------------------------------------------------------------------- */
+.about{
+    position: relative;
+    /* overflow: hidden; */
+    padding: 11px;
+    background-color: #1a1a1a !important;
+}
+.about-d{
+    background-color: #1a1a1a !important;
+}
+
+.about-bg-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+.about-bg-overlay .row img{
+    
+    background-color: #1a1a1a !important;
+}
+
+
+
+@media (min-width:1025px) and (max-width:1200px){
+    .about-img{
+        width: 216px;
+        height: 324px;
+
+    }
+
+}
+@media (min-width:320px) and (max-width:480px) {
+
+    .about-d{
+        padding-top: 40px;
+    }
+    .about-img{
+        width: 269px;
+        height: 403px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+
+    }
+    .about{
+        display:none;
+    }
+
+    
+}
+@media (min-width:481px) and (max-width:768px) {
+    .about-d{
+        padding-top: 40px;
+    }
+    .about-img{
+        width: 430px;
+        height: 645px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+
+    }
+    .about{
+        display:none;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .about{
+        display:none;
+    }
+    .about-d{
+        padding-top: 40px;
+    }
+    .about-img{
+        width: 336.5px;
+        height: 504px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+
+    }
+
+}
+
+/* code about--------------------------------------------------------------------------------------------------- */
