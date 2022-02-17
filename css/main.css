@@ -302,7 +302,7 @@ h4{
 
     .about-d{
         padding-top: 40px;
-        padding-left: 20px;
+        padding-left: 25px;
     }
     .about-img{
         width: 269px;
@@ -321,7 +321,8 @@ h4{
 @media (min-width:481px) and (max-width:768px) {
     .about-d{
         padding-top: 40px;
-        padding-left: 20px;
+        
+        padding-left: 25px;
     }
     .about-img{
         width: 430px;
@@ -337,6 +338,7 @@ h4{
 @media (min-width:769px) and (max-width:1024px){
     .about{
         display:none;
+        
         
     }
     .about-d{
@@ -365,7 +367,7 @@ h4{
 
     .best{
         margin-top: 10px !important;
-        padding-left: 15px;
+        padding-left: 25px;
         background-color: #1b1919;
     }
     .best-img img{
@@ -378,7 +380,7 @@ h4{
 @media (min-width:481px) and (max-width:768px) {
     .best{
         margin-top: 10px !important;
-        padding-left: 15px;
+        padding-left: 25px;
         background-color: #1b1919;
     }
     .best-img img{
@@ -459,6 +461,9 @@ h4{
     .chefImg{
         padding-left: 20px;
     }
+    .chefs{
+        padding-left: 25px;
+    }
 }
 @media (min-width:481px) and (max-width:768px) {
     .chefImg >img{
@@ -470,6 +475,9 @@ h4{
         left: 145px;
         width: 213px;
         height: 212px;
+    }
+    .chefs{
+        padding-left: 25px;
     }
 }
 @media (min-width:769px) and (max-width:1024px){
