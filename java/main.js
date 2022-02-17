@@ -25,3 +25,7 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
+// $(window).scroll(function(){
+//     console.log($(window).scrollTop());
+// })
+

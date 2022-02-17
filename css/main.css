@@ -4,9 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #e4b34c;
     background-color: #171717;
+    /* overflow: hidden; */
 }
 .mt-5{
-    margin-top: 180px !important;
+    margin-top: 160px !important;
 }
 i{
     font-size: 20px;
@@ -57,6 +58,14 @@ p{
 h4{
     font-family: 'Open Sans', sans-serif;
     margin: 10px 10px;
+}
+.social span a{
+    color: #e4b34c !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+.social span:hover a{
+    color: white !important;
 }
 /* code nav--------------------------------------- */
 .navv{
@@ -230,9 +239,9 @@ h4{
 }
 /* code profile ------------------------------------------------------------------------------------------------*/
 /* code Services------------------------------------------------------------------------------------------------- */
-/* .Services{
+.Services{
     background-color: #171717;
-} */
+}
 @media (min-width:320px) and (max-width:768px) {
 
     .mt-4{
@@ -257,10 +266,10 @@ h4{
     position: relative;
     /* overflow: hidden; */
     padding: 11px;
-    background-color: #1a1a1a !important;
+    
 }
 .about-d{
-    background-color: #1a1a1a !important;
+    padding-top: 90px;
 }
 
 .about-bg-overlay{
@@ -293,6 +302,7 @@ h4{
 
     .about-d{
         padding-top: 40px;
+        padding-left: 20px;
     }
     .about-img{
         width: 269px;
@@ -303,6 +313,7 @@ h4{
     }
     .about{
         display:none;
+        background-color: #1a1a1a;
     }
 
     
@@ -310,6 +321,7 @@ h4{
 @media (min-width:481px) and (max-width:768px) {
     .about-d{
         padding-top: 40px;
+        padding-left: 20px;
     }
     .about-img{
         width: 430px;
@@ -325,6 +337,7 @@ h4{
 @media (min-width:769px) and (max-width:1024px){
     .about{
         display:none;
+        
     }
     .about-d{
         padding-top: 40px;
@@ -340,3 +353,135 @@ h4{
 }
 
 /* code about--------------------------------------------------------------------------------------------------- */
+/* code best  ---------------------------------------------------------------------------------------------------*/
+.best{
+    overflow: hidden;
+    /* margin-top: 50px !important; */
+    padding-top: 50px;
+    background-color: #171717;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .best{
+        margin-top: 10px !important;
+        padding-left: 15px;
+        background-color: #1b1919;
+    }
+    .best-img img{
+        margin-top: 30px;
+        width: 269px;
+        height: 209px;
+    }
+    
+}
+@media (min-width:481px) and (max-width:768px) {
+    .best{
+        margin-top: 10px !important;
+        padding-left: 15px;
+        background-color: #1b1919;
+    }
+    .best-img img{
+        margin-top: 30px;
+        width: 430px;
+        height: 334px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .best{
+        margin-top: 10px !important;
+        padding-left: 15px;
+        background-color: #1b1919;
+    }
+    .best-img img{
+        margin-top: 30px;
+        width: 705px;
+        height: 548px;
+    }
+
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .best-img img{
+        
+        width: 477px;
+        height: 371px;
+    }
+    .best{
+        background-color: #1b1919;
+    }
+
+}
+
+
+/* code best  ---------------------------------------------------------------------------------------------------*/
+
+/* code shef -----------------------------------------------------------------------------------------------------*/
+.chefs{
+    background-color: #1a1a1a !important;
+    z-index: 3;
+}
+.chefImg{
+    position: relative;
+    z-index: 2;
+    
+}
+.chefImg >img{
+    z-index: 1;
+}
+.chefImg >span{
+    position: absolute;
+    top: 155px;
+    left: 168px;
+    width: 291px;
+    height: 302px;
+    background-color: initial!important;
+    border: 1px solid #e4b34c;
+    z-index: -1;
+}
+.social{
+    padding-left: 15px;
+}
+.chefWord{
+    padding-top:140px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .chefImg >img{
+        width: 269px;
+        height: 349px;
+    }
+    .chefImg >span{
+        top: 73px;
+        left: 103px;
+        width: 120px;
+        height: 125px;
+    }
+    .chefImg{
+        padding-left: 20px;
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    .chefImg >img{
+        width: 430px;
+        height: 558px;
+    }
+    .chefImg >span{
+        top: 105px;
+        left: 145px;
+        width: 213px;
+        height: 212px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .chefImg >img{
+        width: 705px;
+        height: 915px;
+    }
+    .chefImg >span{
+        top: 190px;
+        left: 252px;
+        width: 298px;
+        height: 334px;
+    }
+}
+/* code shef -----------------------------------------------------------------------------------------------------*/
