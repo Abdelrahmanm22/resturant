@@ -7,7 +7,7 @@ body{
     /* overflow: hidden; */
 }
 .mt-5{
-    margin-top: 160px !important;
+    margin-top: 140px !important;
 }
 i{
     font-size: 20px;
@@ -492,4 +492,123 @@ h4{
         height: 334px;
     }
 }
+/* code shef -----------------------------------------------------------------------------------------------------*/
+
+/* code menu -----------------------------------------------------------------------------------------------------*/
+.menu{
+    text-align: center;
+    overflow: hidden;
+}
+.head-menu{
+    text-align: center;
+}
+.head-menu >h3{
+    cursor: pointer;
+}
+.img-menu{
+    position: relative;
+}   
+
+.img-menu >span{
+    width: 71.5%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.img-menu:nth-child(2) >span{
+    position: absolute;
+    top: 0px;
+    left: 89px;
+}
+.img-menu:nth-child(3) >span{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+.img-menu:hover span{
+    opacity: 0.7;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .img-menu:nth-child(1) >img{
+        width: 248.812px;
+        height: 370px;
+
+    }
+    .img-menu:nth-child(1) >span{
+        width: 83%;
+        left: 27px;
+    }
+
+    .img-menu:nth-child(2) >img ,.img-menu:nth-child(3) >img{
+        width: 248.812px;
+        height: 370px;
+
+    }
+    .img-menu:nth-child(2) >span,.img-menu:nth-child(3) >span{
+        width: 84%;
+        left: 21px;
+    }
+    
+}  
+@media (min-width:481px) and (max-width:768px) {
+    .img-menu >img{
+        width: 409.812px;
+        height: 370px ;
+    }
+    .img-menu >span{
+        width: 88%;
+        left: 28px;
+    }
+    .img-menu:nth-child(2) >span,.img-menu:nth-child(3) >span{
+        width: 88%;
+        left: 28px;
+    }
+    
+}
+@media (min-width:769px) and (max-width:1024px){
+    .img-menu:nth-child(1) >img{
+        width: 685px;
+        height: 370px;
+    }
+    .img-menu:nth-child(1) >span{
+        width: 95%;
+        left: 20px;
+    }
+    .img-menu:nth-child(2) >img ,.img-menu:nth-child(3) >img{
+        width: 332.500px;
+        height: 370px;
+
+    }
+    .img-menu:nth-child(2) >span,.img-menu:nth-child(3) >span{
+        width: 93%;
+        left: 16px;
+    
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .img-menu:nth-child(1) >span{
+        width: 98%;
+        left: 12px;
+    }
+    .img-menu:nth-child(2) >span,.img-menu:nth-child(3) >span{
+        width: 96%;
+        left: 12px;
+    
+    }
+
+}
+
 /* code shef -----------------------------------------------------------------------------------------------------*/

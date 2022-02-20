@@ -25,6 +25,13 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
+// $(".img-menu img").hover(function(){
+//     $(this).next().fadeIn();
+// })
+// $(".img-menu img").mouseout(function(){
+//     $(this).next().css({ opacity: 0 });
+// })
+
 // $(window).scroll(function(){
 //     console.log($(window).scrollTop());
 // })
