@@ -612,3 +612,95 @@ h4{
 }
 
 /* code shef -----------------------------------------------------------------------------------------------------*/
+
+/* code question-------------------------------------------- */
+.question{
+    background-color: #1a1a1a !important;
+}
+
+.fa-arrow-right{
+    background-color: #1a1a1a !important;
+    color: #e4b34c;
+    border: 1px solid #e4b34c !important;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    padding: 10px 14px;
+}
+
+.according{
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    background-color: #1a1a1a;
+    border: 1px solid #e4b34c;
+    text-align: left;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.according:hover{
+    color: #e4b34c;
+}
+.according::after{
+    content: "+";
+    float: right;
+}
+.activee::after{
+    content: "-";
+}
+
+.desc{
+    border: 1px solid #e4b34c;
+    background-color: #171717;
+    color: #ABABAB;
+    padding: 8px;
+    display: none;
+}
+
+
+
+
+/* code question-------------------------------------------- */
+
+/* code endHome------------------------------------------------ */
+
+.endHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.endHome > row{
+    flex-direction: row;
+}
+.endHome >img{
+    width: 25%;
+    
+}
+.endHome >p{
+    color: white;
+}
+.social> span i{
+    background-color: initial ;
+    color: #e4b34c;
+    cursor: pointer;
+
+}
+.social> span i:hover{
+    color: white;
+}
+.endHome >p:last-child{
+    width: 100%;
+    background-color: rgb(34, 27, 27);
+    color: #ABABAB;
+    text-align: center;
+    padding:15px;
+}
+
+/* code endHome------------------------------------------------ */

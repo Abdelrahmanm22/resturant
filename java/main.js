@@ -25,6 +25,16 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
+
+
+$(".according").click(function(){
+    $(this).next().slideToggle();
+    this.classList.toggle("activee");
+    
+})
+
+
+
 // $(".img-menu img").hover(function(){
 //     $(this).next().fadeIn();
 // })
