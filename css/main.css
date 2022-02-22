@@ -703,4 +703,17 @@ h4{
     padding:15px;
 }
 
+@media (min-width:320px) and (max-width:768px) {
+    
+    .endHome >p{
+        font-size: 12.8px;
+        text-align: center;
+    }
+} 
+@media (min-width:769px) and (max-width:1024px){
+    .endHome >p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
 /* code endHome------------------------------------------------ */
